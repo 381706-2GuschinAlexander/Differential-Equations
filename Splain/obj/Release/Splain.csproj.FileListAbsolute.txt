@@ -1,0 +1,8 @@
+C:\Users\igush\Downloads\Splain\Splain\bin\Release\Splain.exe.config
+C:\Users\igush\Downloads\Splain\Splain\bin\Release\Splain.exe
+C:\Users\igush\Downloads\Splain\Splain\bin\Release\Splain.pdb
+C:\Users\igush\Downloads\Splain\Splain\obj\Release\Splain.Form1.resources
+C:\Users\igush\Downloads\Splain\Splain\obj\Release\Splain.Properties.Resources.resources
+C:\Users\igush\Downloads\Splain\Splain\obj\Release\Splain.csproj.GenerateResource.cache
+C:\Users\igush\Downloads\Splain\Splain\obj\Release\Splain.exe
+C:\Users\igush\Downloads\Splain\Splain\obj\Release\Splain.pdb

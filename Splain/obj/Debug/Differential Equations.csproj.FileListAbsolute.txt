@@ -1,0 +1,18 @@
+C:\Users\igush\Downloads\Splain\Splain\bin\Debug\Differential equations.exe.config
+C:\Users\igush\Downloads\Splain\Splain\bin\Debug\Differential equations.exe
+C:\Users\igush\Downloads\Splain\Splain\bin\Debug\Differential equations.pdb
+C:\Users\igush\Downloads\Splain\Splain\obj\Debug\DEeq.Form1.resources
+C:\Users\igush\Downloads\Splain\Splain\obj\Debug\DEeq.Properties.Resources.resources
+C:\Users\igush\Downloads\Splain\Splain\obj\Debug\Differential Equations.csproj.GenerateResource.cache
+C:\Users\igush\Downloads\Splain\Splain\obj\Debug\Differential equations.exe
+C:\Users\igush\Downloads\Splain\Splain\obj\Debug\Differential equations.pdb
+C:\Users\igush\Downloads\Splain\Splain\obj\Debug\Differential Equations.csprojAssemblyReference.cache
+C:\Users\igush\Desktop\Deeq\Splain\bin\Debug\Differential equations.exe.config
+C:\Users\igush\Desktop\Deeq\Splain\bin\Debug\Differential equations.exe
+C:\Users\igush\Desktop\Deeq\Splain\bin\Debug\Differential equations.pdb
+C:\Users\igush\Desktop\Deeq\Splain\obj\Debug\Differential Equations.csprojAssemblyReference.cache
+C:\Users\igush\Desktop\Deeq\Splain\obj\Debug\DEeq.Form1.resources
+C:\Users\igush\Desktop\Deeq\Splain\obj\Debug\DEeq.Properties.Resources.resources
+C:\Users\igush\Desktop\Deeq\Splain\obj\Debug\Differential Equations.csproj.GenerateResource.cache
+C:\Users\igush\Desktop\Deeq\Splain\obj\Debug\Differential equations.exe
+C:\Users\igush\Desktop\Deeq\Splain\obj\Debug\Differential equations.pdb
