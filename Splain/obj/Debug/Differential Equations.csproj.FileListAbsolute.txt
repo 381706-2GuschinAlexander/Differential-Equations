@@ -16,3 +16,12 @@ C:\Users\igush\Desktop\Deeq\Splain\obj\Debug\DEeq.Properties.Resources.resources
 C:\Users\igush\Desktop\Deeq\Splain\obj\Debug\Differential Equations.csproj.GenerateResource.cache
 C:\Users\igush\Desktop\Deeq\Splain\obj\Debug\Differential equations.exe
 C:\Users\igush\Desktop\Deeq\Splain\obj\Debug\Differential equations.pdb
+D:\git_and_labs\Differential-Equations\Splain\bin\Debug\Differential equations.exe.config
+D:\git_and_labs\Differential-Equations\Splain\bin\Debug\Differential equations.exe
+D:\git_and_labs\Differential-Equations\Splain\bin\Debug\Differential equations.pdb
+D:\git_and_labs\Differential-Equations\Splain\obj\Debug\Differential Equations.csprojAssemblyReference.cache
+D:\git_and_labs\Differential-Equations\Splain\obj\Debug\DEeq.Form1.resources
+D:\git_and_labs\Differential-Equations\Splain\obj\Debug\DEeq.Properties.Resources.resources
+D:\git_and_labs\Differential-Equations\Splain\obj\Debug\Differential Equations.csproj.GenerateResource.cache
+D:\git_and_labs\Differential-Equations\Splain\obj\Debug\Differential equations.exe
+D:\git_and_labs\Differential-Equations\Splain\obj\Debug\Differential equations.pdb

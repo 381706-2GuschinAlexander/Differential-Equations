@@ -41,14 +41,11 @@ namespace DEeq {
       h = 0.1;
       yd = 0;
       a = 0;
-      //chart1.ChartAreas[0].AxisX.Interval = 1;
-      //chart1.ChartAreas[0].AxisY.Interval = 1;
-      chart1.ChartAreas[0].AxisX.Title = "Y";
-      chart1.ChartAreas[0].AxisY.Title = "Y'";
+
+
       chart1.ChartAreas[0].AxisX.ArrowStyle = System.Windows.Forms.DataVisualization.Charting.AxisArrowStyle.Triangle;
       chart1.ChartAreas[0].AxisY.ArrowStyle = System.Windows.Forms.DataVisualization.Charting.AxisArrowStyle.Triangle;
 
-      saveFileDialog1.Filter = "Text files(*.txt)|*.txt|All files(*.*)|*.*";
     }
 
     private void generateToolStripMenuItem_Click(object sender, EventArgs e) {
@@ -59,9 +56,8 @@ namespace DEeq {
         ++list_cap;
       }
 
-      Runge_Kutt(yd, x[0], end_x, h);
+      Runge_Kutt(x[0], end_x, h);
       for(int i = 0; i < x.Count(); ++i) {
-        if(x[i] > st_x)
           chart1.Series[list_iter].Points.AddXY(y[i], z[i]);
       }
 
@@ -78,7 +74,7 @@ namespace DEeq {
     }
 
 
-    void Runge_Kutt(double z0, double t0, double t1, double h) {
+    void Runge_Kutt(double t0, double t1, double h) {
       int i = 0;
       while (t0 < t1 - h) {
         double k1 = h * z[i];
@@ -103,16 +99,12 @@ namespace DEeq {
 
     private void textBox1_TextChanged(object sender, EventArgs e) {
       if(textBox1.Text != "-" && textBox1.Text != "")
-        st_x = double.Parse(textBox1.Text);
+        x[0] = double.Parse(textBox1.Text);
     }
+
     private void textBox3_TextChanged(object sender, EventArgs e) {
       if (textBox3.Text != "-" && textBox3.Text != "")
         end_x = double.Parse(textBox3.Text);
-    }
-
-    private void textBox5_TextChanged(object sender, EventArgs e) {
-      if (textBox5.Text != "-" && textBox5.Text != "")
-        x[0] = double.Parse(textBox5.Text);
     }
 
     private void textBox7_TextChanged(object sender, EventArgs e) {

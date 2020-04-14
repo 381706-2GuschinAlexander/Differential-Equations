@@ -24,8 +24,8 @@
     /// </summary>
     private void InitializeComponent() {
       this.components = new System.ComponentModel.Container();
-      System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-      System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+      System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+      System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
       this.menuStrip1 = new System.Windows.Forms.MenuStrip();
       this.placeholderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
       this.generateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -33,13 +33,11 @@
       this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
       this.textBox1 = new System.Windows.Forms.TextBox();
       this.textBox3 = new System.Windows.Forms.TextBox();
-      this.textBox5 = new System.Windows.Forms.TextBox();
       this.textBox7 = new System.Windows.Forms.TextBox();
       this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
       this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
       this.label1 = new System.Windows.Forms.Label();
       this.label2 = new System.Windows.Forms.Label();
-      this.label3 = new System.Windows.Forms.Label();
       this.label15 = new System.Windows.Forms.Label();
       this.textBox2 = new System.Windows.Forms.TextBox();
       this.textBox4 = new System.Windows.Forms.TextBox();
@@ -86,10 +84,10 @@
       // 
       // chart1
       // 
-      chartArea2.Name = "ChartArea1";
-      this.chart1.ChartAreas.Add(chartArea2);
-      legend2.Name = "Legend1";
-      this.chart1.Legends.Add(legend2);
+      chartArea1.Name = "ChartArea1";
+      this.chart1.ChartAreas.Add(chartArea1);
+      legend1.Name = "Legend1";
+      this.chart1.Legends.Add(legend1);
       this.chart1.Location = new System.Drawing.Point(308, 49);
       this.chart1.Name = "chart1";
       this.chart1.Size = new System.Drawing.Size(902, 501);
@@ -112,17 +110,9 @@
       this.textBox3.TabIndex = 4;
       this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
       // 
-      // textBox5
-      // 
-      this.textBox5.Location = new System.Drawing.Point(75, 104);
-      this.textBox5.Name = "textBox5";
-      this.textBox5.Size = new System.Drawing.Size(83, 20);
-      this.textBox5.TabIndex = 6;
-      this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
-      // 
       // textBox7
       // 
-      this.textBox7.Location = new System.Drawing.Point(75, 130);
+      this.textBox7.Location = new System.Drawing.Point(75, 104);
       this.textBox7.Name = "textBox7";
       this.textBox7.Size = new System.Drawing.Size(83, 20);
       this.textBox7.TabIndex = 8;
@@ -151,19 +141,10 @@
       this.label2.TabIndex = 19;
       this.label2.Text = "rigth border";
       // 
-      // label3
-      // 
-      this.label3.AutoSize = true;
-      this.label3.Location = new System.Drawing.Point(15, 104);
-      this.label3.Name = "label3";
-      this.label3.Size = new System.Drawing.Size(12, 13);
-      this.label3.TabIndex = 20;
-      this.label3.Text = "x";
-      // 
       // label15
       // 
       this.label15.AutoSize = true;
-      this.label15.Location = new System.Drawing.Point(15, 130);
+      this.label15.Location = new System.Drawing.Point(15, 104);
       this.label15.Name = "label15";
       this.label15.Size = new System.Drawing.Size(12, 13);
       this.label15.TabIndex = 32;
@@ -171,7 +152,7 @@
       // 
       // textBox2
       // 
-      this.textBox2.Location = new System.Drawing.Point(75, 156);
+      this.textBox2.Location = new System.Drawing.Point(75, 130);
       this.textBox2.Name = "textBox2";
       this.textBox2.Size = new System.Drawing.Size(83, 20);
       this.textBox2.TabIndex = 33;
@@ -179,7 +160,7 @@
       // 
       // textBox4
       // 
-      this.textBox4.Location = new System.Drawing.Point(75, 208);
+      this.textBox4.Location = new System.Drawing.Point(75, 182);
       this.textBox4.Name = "textBox4";
       this.textBox4.Size = new System.Drawing.Size(83, 20);
       this.textBox4.TabIndex = 34;
@@ -188,7 +169,7 @@
       // label4
       // 
       this.label4.AutoSize = true;
-      this.label4.Location = new System.Drawing.Point(15, 156);
+      this.label4.Location = new System.Drawing.Point(15, 130);
       this.label4.Name = "label4";
       this.label4.Size = new System.Drawing.Size(14, 13);
       this.label4.TabIndex = 35;
@@ -197,7 +178,7 @@
       // label5
       // 
       this.label5.AutoSize = true;
-      this.label5.Location = new System.Drawing.Point(12, 208);
+      this.label5.Location = new System.Drawing.Point(15, 182);
       this.label5.Name = "label5";
       this.label5.Size = new System.Drawing.Size(41, 13);
       this.label5.TabIndex = 36;
@@ -205,7 +186,7 @@
       // 
       // textBox6
       // 
-      this.textBox6.Location = new System.Drawing.Point(75, 182);
+      this.textBox6.Location = new System.Drawing.Point(75, 156);
       this.textBox6.Name = "textBox6";
       this.textBox6.Size = new System.Drawing.Size(83, 20);
       this.textBox6.TabIndex = 37;
@@ -214,7 +195,7 @@
       // label6
       // 
       this.label6.AutoSize = true;
-      this.label6.Location = new System.Drawing.Point(15, 182);
+      this.label6.Location = new System.Drawing.Point(15, 156);
       this.label6.Name = "label6";
       this.label6.Size = new System.Drawing.Size(31, 13);
       this.label6.TabIndex = 38;
@@ -232,11 +213,9 @@
       this.Controls.Add(this.textBox4);
       this.Controls.Add(this.textBox2);
       this.Controls.Add(this.label15);
-      this.Controls.Add(this.label3);
       this.Controls.Add(this.label2);
       this.Controls.Add(this.label1);
       this.Controls.Add(this.textBox7);
-      this.Controls.Add(this.textBox5);
       this.Controls.Add(this.textBox3);
       this.Controls.Add(this.textBox1);
       this.Controls.Add(this.chart1);
@@ -260,13 +239,11 @@
     private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
     private System.Windows.Forms.TextBox textBox1;
     private System.Windows.Forms.TextBox textBox3;
-    private System.Windows.Forms.TextBox textBox5;
     private System.Windows.Forms.TextBox textBox7;
     private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     private System.Windows.Forms.Label label1;
     private System.Windows.Forms.Label label2;
-    private System.Windows.Forms.Label label3;
     private System.Windows.Forms.Label label15;
     private System.Windows.Forms.ToolStripMenuItem clearToolStripMenuItem;
     private System.Windows.Forms.TextBox textBox2;
