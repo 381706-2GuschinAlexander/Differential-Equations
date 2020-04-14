@@ -80,11 +80,11 @@ namespace DEeq {
         double k1 = h * z[i];
         double l1 = h * func(a, x[i], y[i], z[i]);
         double k2 = h * (z[i] + l1 / 2);
-        double l2 = h * func(a, x[i], y[i] + k1 / 2, z[i] + l1 / 2);
+        double l2 = h * func(a, x[i] + h /2, y[i] + k1 / 2, z[i] + l1 / 2);
         double k3 = h * (z[i] + l2 / 2);
-        double l3 = h * func(a, x[i], y[i] + k2 / 2, z[i] + l2 / 2);
+        double l3 = h * func(a, x[i] + h /2, y[i] + k2 / 2, z[i] + l2 / 2);
         double k4 = h * (z[i] + l3);
-        double l4 = h * func(a, x[i], y[i] + k3, z[i] + l3);
+        double l4 = h * func(a, x[i] + h, y[i] + k3, z[i] + l3);
         x.Add(x[i] + h);
         y.Add(y[i] + (k1 + 2 * k2 + 2 * k3 + k4) / 6);
         z.Add(z[i] + (l1 + 2 * l2 + 2 * l3 + l4) / 6);
